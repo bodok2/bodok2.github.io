@@ -1,0 +1,164 @@
+
+div {
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+}
+
+
+body {
+    background-color: black;
+}
+
+
+div.dot {
+    position: relative;
+    border: 02px solid white;
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    left: 15px;
+}
+
+
+
+.left {
+    position: absolute;
+    
+}
+
+
+
+.center {
+    position: relative;
+    left: 100px;
+    bottom: 0px;
+}
+
+
+.right {
+    position: relative;
+    left: 200px;
+    bottom: 102px;
+}
+
+
+
+
+/*left*/
+
+#red {
+    background-color: red;
+    }
+
+#yellow {
+        background-color: yellow;
+    }
+
+#violet {
+        background-color: darkviolet;
+    }
+
+
+/*right*/
+
+#green {
+    background-color: green;
+    
+}
+
+
+#orange {
+    background-color: orange;
+    
+}
+
+#pink {
+    background-color: pink;
+        }
+
+
+/*center*/
+
+#blue {    
+        background-color: blue;
+    
+}
+
+#black {    
+        background-color: black;
+
+}
+
+#gray {
+        background-color: gray;
+}
+
+/*dot*/
+
+
+#pink1 {
+        background-color: pink;
+    
+bottom: 280px;
+    left: 25px;
+    }
+
+#green1 {
+        background-color: green;
+    
+   bottom: 230px;
+    left: 25px;
+   }
+
+#orange1 {
+        background-color: orange;
+    bottom: 190px;
+    left: 25px;
+     
+}
+
+
+#gray1 {
+        background-color: gray;
+    
+bottom: 280px;
+    left: 25px;
+    }
+
+#red1 {
+        background-color: red;
+    
+   bottom: 230px;
+    left: 25px;
+   }
+
+#yellow1 {
+        background-color: yellow;
+    bottom: 190px;
+    left: 25px;
+     
+}
+
+#violet1 {
+        background-color: darkviolet;
+    
+bottom: 280px;
+    left: 25px;
+    }
+
+#blue1 {
+        background-color: blue;
+    
+   bottom: 230px;
+    left: 25px;
+   }
+
+#black1 {
+        background-color: black;
+    bottom: 190px;
+    left: 25px;
+     
+}
+
+
