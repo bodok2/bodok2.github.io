@@ -15,13 +15,10 @@
         }
     </style>
 
-    </head>
-    
-    <body>
+</head>
 
+<body>
 
-
-    
 
     <form action="https://formspree.io/bodok2@gmail.com" method="POST">
 
@@ -50,23 +47,32 @@
         </p>
         <p>
             <label for="male">Wybierz płeć:</label>
-            <input type="radio" id="male" name="gender" value="male" checked>Mężczyzna
-        </p>
-        <p>
-            <label for="female"></label>
-            <input type="radio" id="female" name="gender" value="female">Kobieta
-        </p>
-        <p>
-            <label for="dane">Wyrażam zgodę na przetwarzanie danych osobowych:</label>
-            <input type="checkbox" id="dane">
-        </p>
-        <p>
-            <label for="comment"></label>
-            <textarea name="comment" id="comment" rows="5" cols="30" placeholder="Uwagi"></textarea>
-        </p>
 
-        <input type="submit" value="Wyślij">
+        </p>
+        <label>Kobieta
+            <input type="radio" id="female" name="gender" value="female" checked>
+        </label>
+        <label>Mężczyzna
+            <input type="radio" id="male" name="gender" value="male">
+        </label>
+        <br>
+        <p>
+            <label for="dane">
+                Wyrażam zgodę na przetwarzanie danych osobowych:
+            </label>
+            <label for="dane">
+                <input type="checkbox" id="dane" required>
+            </label>
+        </p>
+        <br>
+        <br>
+        <br>
+        <label for="comment"></label>
+        <textarea name="comment" id="comment" rows="5" cols="30" placeholder="Uwagi"></textarea>
 
+        <p>
+            <input type="submit" value="Wyślij">
+        </p>
 
 
     </form>
@@ -75,6 +81,6 @@
 
 
 
-    </body>
+</body>
 
 </html>
