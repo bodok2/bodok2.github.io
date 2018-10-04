@@ -1,0 +1,323 @@
+#liczba1 {
+    animation: counting 5s linear ;
+    width: 499px;
+    height: 200px;
+}
+
+
+.liczby {
+    
+
+    background: url(../img/1.gif) no-repeat, url('../img/1.gif') no-repeat,
+        url('../img/2.gif') no-repeat, url('../img/3.gif') no-repeat,
+        url('../img/4.gif') no-repeat,
+        url('../img/5.gif') no-repeat,
+        url('../img/6.gif') no-repeat,
+        url('../img/7.gif') no-repeat,
+        url('../img/8.gif') no-repeat,
+        url('../img/9.gif') no-repeat,
+        url('../img/10.gif') no-repeat;
+    animation: counting 10s steps(10);
+    
+}
+
+@keyframes counting
+{
+  0% { background-position:0 100px, 0 100px, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;}
+  100% { background-position:0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0; }
+}
+
+/*
+#liczba1 {
+    animation: counting linear infinity;
+}
+
+#liczba2 {
+    animation: counting 5s linear infinity;
+}
+*/
+
+/*
+#animacja {
+   position:relative;
+    margin:0 auto;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    
+}
+
+div:before {
+    position:absolute;
+    left: 50px;
+    top: 10px;
+    font-size: 100px;
+    background-color: black;
+    font-family:monospace;
+    color: white; 
+    animation-fill-mode: forwardsfor;
+*/
+/*    transition: opacity 1s ease-in-out;*/
+        
+
+/*
+
+#animacja div.liczba-10:hover {
+    opacity:0;
+    
+}
+
+#animacja div.liczba-9:hover {
+    opacity:0;
+    
+}
+    
+
+#animacja div.liczba-8:hover {
+    opacity:0;
+*/
+    
+
+/*
+#aninamcja {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-duration: 2s;
+animation-iteration-count: 1;
+animation-direction: normal;
+}
+
+#animacja {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-duration: 2s;
+animation-iteration-count: 1;
+animation-direction: normal;
+}
+
+#animacja {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-duration: 2s;
+animation-iteration-count: 1;
+animation-direction: normal;
+*/
+/*}*/
+/*
+#animacja div.liczba-8 {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+animation-direction: alternate;
+}
+
+#animacja div.liczba-8 {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+animation-direction: alternate;
+}
+/*
+#animacja div.liczba-8 {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+animation-direction: alternate;
+}
+
+
+#animacja div.liczba-7 {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+
+#animacja div.liczba-6 {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+*/
+
+
+/*
+@keyframes cf3FadeInOut {
+    
+0% {
+  opacity:0;
+}
+15% {
+opacity:0;
+}
+25% {
+opacity:0;
+}
+35% {
+opacity:0;
+}
+45% {
+opacity:0;
+}   
+ 
+    
+*/
+    
+    
+    
+/*
+}
+#animacja img:nth-of-type(1) {
+  animation-delay: 1s;
+}
+
+#animacja img:nth-of-type(2) {
+  animation-delay: 2s;
+}
+#animacja img:nth-of-type(3) {
+  animation-delay: 3s;
+}
+#animacja img:nth-of-type(4) {
+  animation-delay: 4;
+}
+
+#animacja img:nth-of-type(5) {
+  animation-delay: 5s;
+}
+
+#animacja img:nth-of-type(6) {
+  animation-delay: 6s;
+}
+#animacja img:nth-of-type(7) {
+  animation-delay: 7s;
+}
+#animacja img:nth-of-type(8) {
+  animation-delay: 8;
+}
+
+
+#animacja img:nth-of-type(9) {
+  animation-delay: 9s;
+}
+
+#animacja img:nth-of-type(10) {
+  animation-delay: 10s;
+}
+*/
+
+/*
+
+@keyframes animacja {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+
+#animacja {
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+}
+
+
+#animacja img {
+  position:absolute;
+  left:0;
+  transition: opacity 1s ease-in-out;
+}
+
+
+#animacja img.liczba-1 liczba-2 liczba-3 {
+animation-name: animacja;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+*/
+
+/*
+#animacja img.liczba-2 {
+animation-name: animacja;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+#animacja img.liczba-3 {
+animation-name: animacja;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+#animacja img.liczba-4 {
+animation-name: animacja;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+#animacja img.liczba-5 {
+animation-name: animacja;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+#animacja img.liczba-6 {
+animation-name: animacja;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+#animacja img.liczba-7 {
+animation-name: animacja;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+#animacja img.liczba-8 {
+animation-name: animacja;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+#animacja img.liczba-9 {
+animation-name: animacja;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+#animacja img.liczba-10 {
+animation-name: animacja;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+
+
+
+
+*/
