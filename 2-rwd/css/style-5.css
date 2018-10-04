@@ -1,0 +1,12 @@
+body {
+    background-image: url(/img/man-1.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item {
+    color: white;
+    left: 0%;
+    top: 35vw;
+}
