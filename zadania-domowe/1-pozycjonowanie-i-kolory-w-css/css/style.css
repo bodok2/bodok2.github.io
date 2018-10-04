@@ -1,16 +1,11 @@
+body {
+    background-color: black;
+}
 
 div {
     border: 1px solid white;
     width: 100px;
     height: 100px;
-}
-
-div.left[class="dot"] {
-    bottom: 280;
-}
-
-body {
-    background-color: black;
 }
 
 
@@ -25,24 +20,33 @@ div.dot {
 
 
 
-div[name="pink"], [name="gray"] , [name="violet"] {
-    
-bottom: 280px;}
+div[name="pink"],
+[name="gray"],
+[name="violet"] {
 
-div[name="green"], [name="red"] , [name="blue"] {
-    
-bottom: 230px;}
+    bottom: 280px;
+}
 
-div[name="orange"], [name="yellow"] , [name="black"] {
-    
-bottom: 190px;}
+div[name="green"],
+[name="red"],
+[name="blue"] {
+
+    bottom: 230px;
+}
+
+div[name="orange"],
+[name="yellow"],
+[name="black"] {
+
+    bottom: 190px;
+}
 
 
 /*columns*/
 
 .left {
     position: absolute;
-  }
+}
 
 
 .center {
@@ -58,50 +62,39 @@ bottom: 190px;}
     bottom: 102px;
 }
 
-/*dots*/
-
-
-/*rows*/
-
-
 
 div[name="pink"] {
     background-color: pink;
 }
 
 div[name="green"] {
-    background-color: green;        
+    background-color: green;
 }
 
 div[name="orange"] {
     background-color: orange;
-    bottom: 190px;    
-}
+   }
 
 div[name="gray"] {
-    background-color: gray;      
+    background-color: gray;
 }
 
 div[name="red"] {
-    background-color: red;         
+    background-color: red;
 }
 
 div[name="yellow"] {
     background-color: yellow;
-    bottom: 190px;    
-}
+    }
 
 div[name="violet"] {
     background-color: darkviolet;
 }
 
 div[name="blue"] {
-    background-color: blue;      
+    background-color: blue;
 }
 
 div[name="black"] {
     background-color: black;
-    bottom: 190px;    
 }
-
-
